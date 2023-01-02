@@ -58,7 +58,7 @@ class FlappyBirdRenderer:
 
     def __init__(self,
                  screen_size: Tuple[int, int] = (288, 512),
-                 audio_on: bool = True,
+                 audio_on: bool = False,
                  bird_color: str = "yellow",
                  pipe_color: str = "green",
                  background: Optional[str] = "day") -> None:
